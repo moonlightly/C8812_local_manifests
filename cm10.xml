@@ -8,10 +8,11 @@
  <remove-project name="CyanogenMod/android_hardware_msm7k" />
  <remove-project name="CyanogenMod/android_hardware_qcom_display" />
  <remove-project name="CyanogenMod/android_hardware_qcom_media" />
+ <remove-project name="platform/prebuilt" />
  <project name="ezeteze/android_device_huawei_u8815" path="device/huawei/u8815" remote="github" revision="jb" />
  <project name="ezeteze/android_vendor_huawei" path="vendor/huawei" remote="github" revision="jb" />
  <project name="ezeteze/android_device_huawei_msm7x27a-common" path="device/huawei/msm7x27a-common" remote="github" revision="jb" />
- <project name="ezeteze/android_kernel_huawei_G300" path="kernel/huawei/G300" remote="github" revision="jb" />
+ <project name="ezeteze/android_kernel_huawei_u8815" path="kernel/huawei/G300" remote="github" revision="jb" />
  <project name="ezeteze/android_frameworks_av" path="frameworks/av" remote="github" revision="jellybean" />
  <project name="ezeteze/android_frameworks_native" path="frameworks/native" remote="github" revision="jellybean" />
  <project name="ezeteze/android_hardware_libhardware_legacy" path="hardware/libhardware_legacy" remote="github" revision="jb" />
@@ -19,4 +20,5 @@
  <project name="ezeteze/android_hardware_qcom_media" path="hardware/qcom/media" remote="github" revision="jellybean" />
  <project name="ezeteze/android_hardware_msm7k" path="hardware/msm7k" remote="github" revision="jellybean" />
  <project name="ezeteze/android_hardware_qcom_display" path="hardware/qcom/display" remote="github" revision="jellybean" />
+ <project name="ezeteze/android_prebuilt" path="prebuilt" remote="github" revision="jb" />
 </manifest>
