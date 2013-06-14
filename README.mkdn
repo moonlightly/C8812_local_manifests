@@ -1,0 +1,39 @@
+Submitting Patches
+
+Patches are always welcome! Please submit your patches via CyanogenMod Gerrit! You can do this by using these commands:
+
+(From root android directory)
+. build/envsetup.sh
+(Go to repo you are patching, make your changes and commit)
+cmgerrit <for(new)/changes(patch set)> <branch/change-id> 
+
+repo start jellybean .
+(Make your changes and commit)
+repo upload .
+Note: "." meaning current directory For more help on using this tool, use this command: repo help upload
+
+Make your changes and commit with a detailed message, starting with what you are working with (i.e. vision: Update Kernel) Commit your patches in a single commit. Squash multiple commit using this command: git rebase -i HEAD~<# of commits>
+
+To view the status of your and others' patches, visit CyanogenMod Code Review
+
+Getting Started
+
+To get started with Android/CyanogenMod, you'll need to get familiar with Git and Repo.
+
+To initialize your local repository using the CyanogenMod trees, use a command like this:
+
+repo init -u git://github.com/CyanogenMod/android.git -b jellybean
+Then to sync up:
+
+repo sync
+
+Then put my local_manifest.xml in .repo/local_manifests folder 
+
+and then 
+
+repo sync 
+
+After that 
+. build/envsetup.sh
+lunch
+mka bacon -j8
